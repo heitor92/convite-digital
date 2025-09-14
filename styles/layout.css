@@ -1,0 +1,23 @@
+#app {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+  overflow: hidden;
+  gap: 1.25rem;
+  margin: 1.25rem;
+}
+
+aside {
+  background-image: url(../assets/images/Background.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: calc(100vh - 2.50rem);
+  border-radius: .75rem;
+}
+
+main {
+  border-radius: .75rem;
+  background-color: var(--shape-body);
+  overflow: auto;
+}
