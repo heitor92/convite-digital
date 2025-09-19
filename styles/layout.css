@@ -42,4 +42,9 @@ main {
   border-radius: .75rem;
   background-color: var(--shape-body);
   overflow: auto;
+  padding: 5rem 8.125rem;
+  & h1 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+  }
 }

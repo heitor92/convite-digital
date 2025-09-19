@@ -1,0 +1,20 @@
+form {
+  
+}
+
+fieldset {
+  border: none;
+  display: grid;
+}
+
+legend {
+  font: var(--heading-sm);
+  color: var(--text-heading);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  & span.icon {
+    width: 24px;
+    height: 24px;
+  }
+}
