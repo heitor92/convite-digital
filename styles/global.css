@@ -43,7 +43,8 @@
   --text-logo: 400 2.5rem var(--font-family-leckerli-one);
   --heading-md: 700 1.75rem var(--font-family-baloo-2);
   --heading-sm: 700 1.125rem var(--font-family-baloo-2);
-  --body-md: 400 1rem var(--font-family-open-sans); 
+  --body-md: 400 1rem var(--font-family-open-sans);
+  --body-md-light: 300 1rem var(--font-family-open-sans);
   --body-md-semi-bold: 600 1rem var(--font-family-open-sans);
   --body-sm: 400 .875rem var(--font-family-open-sans); 
   --body-sm-semi-bold: 600 .875rem var(--font-family-open-sans);

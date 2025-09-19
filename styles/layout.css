@@ -14,6 +14,28 @@ aside {
   background-repeat: no-repeat;
   height: calc(100vh - 2.50rem);
   border-radius: .75rem;
+
+  & div {
+    margin: 2rem;
+  }
+
+  & div h1 {
+    font: var(--text-logo);
+    color: var(--accent-color-pink);
+    margin-bottom: 4px;
+  }
+
+  & div p {
+    font: var(--body-md-light);
+    color: var(--text-heading);
+  }
+  
+  & div img {
+    width: 45.85px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+
 }
 
 main {
